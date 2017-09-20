@@ -9,6 +9,8 @@ The changelog for `IGListKit`. Also see the [releases](https://github.com/instag
 
 - Added `-[IGListSectionController didHighlightItemAtIndex:]` and `-[IGListSectionController didUnhighlightItemAtIndex:]` APIs to support `UICollectionView` cell highlighting. [Kevin Delannoy](https://github.com/delannoyk) [(#933)](https://github.com/Instagram/IGListKit/pull/933)
 
+- Updated project settings for iOS 11. [Ryan Nystrom](https://github.com/rnystrom) [(#942)](https://github.com/Instagram/IGListKit/pull/942)
+
 ### Fixes
 
 - Weakly reference the `UICollectionView` in coalescence so that it can be released if the rest of system is destroyed. [Ryan Nystrom](https://github.com/rnystrom) [(#tbd)](https://github.com/Instagram/IGListKit/pull/tbd)
@@ -16,11 +18,6 @@ The changelog for `IGListKit`. Also see the [releases](https://github.com/instag
 - Avoid crash when invalidating the layout while inside `-[UICollectionView performBatchUpdates:completion:]. [Ryan Nystrom](https://github.com/rnystrom) [(#tbd)](https://github.com/Instagram/IGListKit/pull/tbd)
 
 - Duplicate view models in `IGListBindingSectionController` gets filtered out. [Weyert de Boer](https://github.com/weyert) [(#916)](https://github.com/Instagram/IGListKit/pull/916)
-
-### Enhancements
-
-- Added `-[IGListSectionController didHighlightItemAtIndex:]` and `-[IGListSectionController didUnhighlightItemAtIndex:]` APIs to support `UICollectionView` cell highlighting. [Kevin Delannoy](https://github.com/delannoyk) [(#933)](https://github.com/Instagram/IGListKit/pull/933)
->>>>>>> source: 872ef395b114 arcpatch-D5872117 - facebook-github-bot: [IGList...
 
 3.1.1
 -----
